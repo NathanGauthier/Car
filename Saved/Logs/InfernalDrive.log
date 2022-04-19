@@ -1127,3 +1127,1563 @@ Make sure 'VehicleBlueprint_C' has been compiled for  Set IsPressed Left
 [2022.04.19-10.08.32:293][ 30]LogSavePackage: Moving 'E:/TD4/PFE/InfernalDrive/Saved/VehicleBlueprint8592C8D041844A3CD0A038A2F0503178.tmp' to 'E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
 [2022.04.19-10.08.32:310][ 30]AssetCheck: New page: Asset Save: VehicleBlueprint
 [2022.04.19-10.08.32:310][ 30]LogContentValidation: Display: Validating Blueprint /Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint
+[2022.04.19-10.12.27:569][  3]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2022.04.19-10.12.27:759][  3]LogSavePackage: Moving 'E:/TD4/PFE/InfernalDrive/Saved/VehicleAdvExampleMap_Auto12FFD4FFE4AFBDC2083785EBF82BAC6D6.tmp' to 'E:/TD4/PFE/InfernalDrive/Saved/Autosaves/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap_Auto1.umap'
+[2022.04.19-10.12.27:760][  3]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap' took 0.216
+[2022.04.19-10.12.27:760][  3]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.216
+[2022.04.19-10.21.01:098][100]BlueprintLog: New page: Compile VehicleBlueprint
+[2022.04.19-10.21.01:164][100]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2022.04.19-10.21.03:966][295]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.21.03:971][295]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.21.03:971][295]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:21:03 PM)
+[2022.04.19-10.21.03:971][295]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.21.03:990][295]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019140s)
+[2022.04.19-10.21.03:991][295]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.21.03:991][295]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2022.04.19-10.21.03:991][295]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.020193s)
+[2022.04.19-10.21.04:020][295]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2022.04.19-10.21.04:021][295]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.04.19-10.21.04:021][295]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.21.04:021][295]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.21.04:021][295]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.21.04:021][295]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.21.04:021][295]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.21.04:021][295]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.21.04:021][295]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.21.04:021][295]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.21.04:022][295]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.21.04:022][295]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.21.04:022][295]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.21.04:022][295]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.21.04:023][295]LogAudioMixer: Display: Using Audio Device Unknown
+[2022.04.19-10.21.04:023][295]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.21.04:023][295]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.21.04:023][295]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.21.04:023][295]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.21.04:023][295]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.21.04:023][295]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.21.04:024][295]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.21.04:024][295]LogAudioMixer: Display: StartRunningNullDevice() called
+[2022.04.19-10.21.04:025][295]LogInit: FAudioDevice initialized.
+[2022.04.19-10.21.04:025][295]LogAudio: Display: Audio Device (ID: 4) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.21.04:039][295]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.21.04:048][295]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.21.04
+[2022.04.19-10.21.04:048][295]LogWorld: Bringing up level for play took: 0.005613
+[2022.04.19-10.21.04:049][295]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2022.04.19-10.21.04:051][295]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.21.04:052][295]PIE: Server logged in
+[2022.04.19-10.21.04:052][295]PIE: Play in editor total start time 0.082 seconds.
+[2022.04.19-10.21.11:791][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.21.11:791][133]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.21.11:791][133]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.21.11:792][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.21.11:806][133]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.21.11:810][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.21.11:834][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.21.11:835][133]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.21.11:836][133]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.21.11:836][133]LogAudioMixer: Display: StopRunningNullDevice() called
+[2022.04.19-10.21.11:859][133]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2022.04.19-10.21.11:879][134]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2022.04.19-10.21.13:892][358]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.21.13:898][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.21.13:898][358]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:21:13 PM)
+[2022.04.19-10.21.13:934][358]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.21.13:954][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019872s)
+[2022.04.19-10.21.13:955][358]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.21.13:955][358]LogPlayLevel: PIE: World Init took: (0.001438s)
+[2022.04.19-10.21.13:955][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.021500s)
+[2022.04.19-10.21.13:979][358]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2022.04.19-10.21.13:980][358]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.04.19-10.21.13:980][358]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.21.13:980][358]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.21.13:980][358]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.21.13:980][358]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.21.13:980][358]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.21.13:980][358]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.21.13:980][358]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.21.13:980][358]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.21.13:980][358]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.21.13:980][358]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.21.13:980][358]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.21.13:980][358]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.21.13:982][358]LogAudioMixer: Display: Using Audio Device Unknown
+[2022.04.19-10.21.13:982][358]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.21.13:982][358]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.21.13:982][358]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.21.13:982][358]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.21.13:982][358]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.21.13:982][358]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.21.13:983][358]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.21.13:983][358]LogAudioMixer: Display: StartRunningNullDevice() called
+[2022.04.19-10.21.13:984][358]LogInit: FAudioDevice initialized.
+[2022.04.19-10.21.13:984][358]LogAudio: Display: Audio Device (ID: 5) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.21.13:992][358]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.21.14:000][358]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.21.14
+[2022.04.19-10.21.14:000][358]LogWorld: Bringing up level for play took: 0.003966
+[2022.04.19-10.21.14:000][358]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2022.04.19-10.21.14:003][358]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.21.14:003][358]PIE: Server logged in
+[2022.04.19-10.21.14:004][358]PIE: Play in editor total start time 0.106 seconds.
+[2022.04.19-10.21.20:323][ 82]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.21.20:323][ 82]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.21.20:324][ 82]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.21.20:325][ 82]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.21.20:343][ 82]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.21.20:350][ 82]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.21.20:376][ 82]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.19-10.21.20:376][ 82]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.21.20:377][ 82]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.21.20:377][ 82]LogAudioMixer: Display: StopRunningNullDevice() called
+[2022.04.19-10.21.20:385][ 82]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.21.20:389][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2022.04.19-10.21.20:409][ 83]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2022.04.19-10.21.23:677][384]LogEditorTransaction: Undo Delete current selection
+[2022.04.19-10.22.33:987][466]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2022.04.19-10.23.22:910][177]BlueprintLog: New page: Compile VehicleBlueprint
+[2022.04.19-10.23.22:974][177]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2022.04.19-10.23.26:283][431]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.23.26:288][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.23.26:288][431]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:23:26 PM)
+[2022.04.19-10.23.26:328][431]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.23.26:368][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040632s)
+[2022.04.19-10.23.26:369][431]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.23.26:370][431]LogPlayLevel: PIE: World Init took: (0.001357s)
+[2022.04.19-10.23.26:370][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.042171s)
+[2022.04.19-10.23.26:395][431]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2022.04.19-10.23.26:396][431]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.04.19-10.23.26:396][431]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.23.26:396][431]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.23.26:396][431]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.23.26:396][431]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.23.26:396][431]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.23.26:396][431]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.23.26:396][431]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.23.26:396][431]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.23.26:397][431]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.23.26:397][431]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.23.26:397][431]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.23.26:397][431]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.23.26:398][431]LogAudioMixer: Display: Using Audio Device Unknown
+[2022.04.19-10.23.26:398][431]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.23.26:398][431]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.23.26:398][431]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.23.26:398][431]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.23.26:398][431]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.23.26:398][431]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.23.26:400][431]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.23.26:400][431]LogAudioMixer: Display: StartRunningNullDevice() called
+[2022.04.19-10.23.26:401][431]LogInit: FAudioDevice initialized.
+[2022.04.19-10.23.26:401][431]LogAudio: Display: Audio Device (ID: 6) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.23.26:412][431]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.23.26:420][431]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.23.26
+[2022.04.19-10.23.26:421][431]LogWorld: Bringing up level for play took: 0.005300
+[2022.04.19-10.23.26:421][431]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2022.04.19-10.23.26:424][431]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.23.26:424][431]PIE: Server logged in
+[2022.04.19-10.23.26:425][431]PIE: Play in editor total start time 0.138 seconds.
+[2022.04.19-10.23.37:497][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.23.37:497][748]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.23.37:498][748]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.23.37:499][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.23.37:523][748]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.23.37:529][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.23.37:560][748]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.19-10.23.37:560][748]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.23.37:561][748]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.23.37:561][748]LogAudioMixer: Display: StopRunningNullDevice() called
+[2022.04.19-10.23.37:582][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.23.37:586][748]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2022.04.19-10.23.37:606][749]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2022.04.19-10.25.01:360][815]BlueprintLog: New page: Compile VehicleBlueprint
+[2022.04.19-10.25.01:368][815]LogBlueprint: Warning: [AssetLog] E:\TD4\PFE\InfernalDrive\Content\VehicleAdvBP\Blueprints\VehicleBlueprint.uasset: [Compiler] Set speed  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2022.04.19-10.25.01:425][815]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2022.04.19-10.25.02:149][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Blueprints/VehicleBlueprint" FILE="E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset" SILENT=true
+[2022.04.19-10.25.02:220][856]LogSavePackage: Moving 'E:/TD4/PFE/InfernalDrive/Saved/VehicleBlueprint0E8EF3464355A212FF00A7A0308CAB14.tmp' to 'E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2022.04.19-10.25.02:235][856]AssetCheck: New page: Asset Save: VehicleBlueprint
+[2022.04.19-10.25.02:235][856]LogContentValidation: Display: Validating Blueprint /Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint
+[2022.04.19-10.25.03:102][903]BlueprintLog: New page: Compile VehicleBlueprint
+[2022.04.19-10.25.03:108][903]LogBlueprint: Warning: [AssetLog] E:\TD4\PFE\InfernalDrive\Content\VehicleAdvBP\Blueprints\VehicleBlueprint.uasset: [Compiler] Set speed  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2022.04.19-10.25.03:167][903]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2022.04.19-10.25.17:093][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Blueprints/VehicleBlueprint" FILE="E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset" SILENT=true
+[2022.04.19-10.25.17:182][988]LogSavePackage: Moving 'E:/TD4/PFE/InfernalDrive/Saved/VehicleBlueprint48F7B1E6415543FF4CF868A850F274CD.tmp' to 'E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2022.04.19-10.25.17:196][988]AssetCheck: New page: Asset Save: VehicleBlueprint
+[2022.04.19-10.25.17:196][988]LogContentValidation: Display: Validating Blueprint /Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint
+[2022.04.19-10.25.18:133][ 52]BlueprintLog: New page: Compile VehicleBlueprint
+[2022.04.19-10.25.18:140][ 52]LogBlueprint: Warning: [AssetLog] E:\TD4\PFE\InfernalDrive\Content\VehicleAdvBP\Blueprints\VehicleBlueprint.uasset: [Compiler] Set speed  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2022.04.19-10.25.18:195][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2022.04.19-10.25.40:395][805]BlueprintLog: New page: Compile VehicleBlueprint
+[2022.04.19-10.25.40:456][805]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2022.04.19-10.25.44:343][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Blueprints/VehicleBlueprint" FILE="E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset" SILENT=true
+[2022.04.19-10.25.44:398][ 90]LogSavePackage: Moving 'E:/TD4/PFE/InfernalDrive/Saved/VehicleBlueprintC48FC2D442BA0A32B84475B93A69F67A.tmp' to 'E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2022.04.19-10.25.44:418][ 90]AssetCheck: New page: Asset Save: VehicleBlueprint
+[2022.04.19-10.25.44:418][ 90]LogContentValidation: Display: Validating Blueprint /Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint
+[2022.04.19-10.25.46:367][234]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.25.46:372][234]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.25.46:372][234]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:25:46 PM)
+[2022.04.19-10.25.46:405][234]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.25.46:434][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029022s)
+[2022.04.19-10.25.46:435][234]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.25.46:436][234]LogPlayLevel: PIE: World Init took: (0.001822s)
+[2022.04.19-10.25.46:436][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.031041s)
+[2022.04.19-10.25.46:464][234]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2022.04.19-10.25.46:465][234]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.04.19-10.25.46:466][234]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.25.46:466][234]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.25.46:466][234]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.25.46:466][234]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.25.46:466][234]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.25.46:466][234]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.25.46:466][234]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.25.46:466][234]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.25.46:466][234]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.25.46:466][234]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.25.46:466][234]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.25.46:466][234]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.25.46:467][234]LogAudioMixer: Display: Using Audio Device Unknown
+[2022.04.19-10.25.46:467][234]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.25.46:468][234]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.25.46:468][234]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.25.46:468][234]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.25.46:468][234]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.25.46:468][234]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.25.46:469][234]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.25.46:469][234]LogAudioMixer: Display: StartRunningNullDevice() called
+[2022.04.19-10.25.46:470][234]LogInit: FAudioDevice initialized.
+[2022.04.19-10.25.46:470][234]LogAudio: Display: Audio Device (ID: 7) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.25.46:477][234]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.25.46:484][234]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.25.46
+[2022.04.19-10.25.46:485][234]LogWorld: Bringing up level for play took: 0.004216
+[2022.04.19-10.25.46:485][234]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2022.04.19-10.25.46:488][234]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.25.46:488][234]PIE: Server logged in
+[2022.04.19-10.25.46:488][234]PIE: Play in editor total start time 0.117 seconds.
+[2022.04.19-10.25.52:916][851]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.25.52:916][851]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.25.52:917][851]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.25.52:918][851]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.25.52:938][851]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.25.52:942][851]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.25.52:964][851]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.19-10.25.52:965][851]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.25.52:965][851]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.25.52:966][851]LogAudioMixer: Display: StopRunningNullDevice() called
+[2022.04.19-10.25.52:978][851]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.25.52:981][851]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2022.04.19-10.25.52:997][852]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2022.04.19-10.25.59:236][540]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2022.04.19-10.26.04:936][158]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.26.04:942][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.26.04:942][158]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:26:04 PM)
+[2022.04.19-10.26.04:965][158]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.26.04:986][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020959s)
+[2022.04.19-10.26.04:987][158]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.26.04:987][158]LogPlayLevel: PIE: World Init took: (0.001427s)
+[2022.04.19-10.26.04:987][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.022603s)
+[2022.04.19-10.26.05:014][158]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2022.04.19-10.26.05:017][158]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.04.19-10.26.05:017][158]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.26.05:017][158]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.26.05:017][158]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.26.05:017][158]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.26.05:017][158]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.26.05:017][158]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.26.05:017][158]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.26.05:017][158]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.26.05:018][158]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.26.05:018][158]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.26.05:018][158]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.26.05:018][158]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.26.05:019][158]LogAudioMixer: Display: Using Audio Device Unknown
+[2022.04.19-10.26.05:019][158]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.26.05:019][158]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.26.05:019][158]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.26.05:019][158]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.26.05:019][158]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.26.05:019][158]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.26.05:019][158]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.26.05:019][158]LogAudioMixer: Display: StartRunningNullDevice() called
+[2022.04.19-10.26.05:020][158]LogInit: FAudioDevice initialized.
+[2022.04.19-10.26.05:020][158]LogAudio: Display: Audio Device (ID: 8) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.26.05:025][158]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.26.05:032][158]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.26.05
+[2022.04.19-10.26.05:033][158]LogWorld: Bringing up level for play took: 0.004389
+[2022.04.19-10.26.05:033][158]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2022.04.19-10.26.05:035][158]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.26.05:036][158]PIE: Server logged in
+[2022.04.19-10.26.05:037][158]PIE: Play in editor total start time 0.097 seconds.
+[2022.04.19-10.26.12:491][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.26.12:491][ 22]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.26.12:491][ 22]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.26.12:493][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.26.12:509][ 22]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.26.12:516][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.26.12:544][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.26.12:544][ 22]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.26.12:545][ 22]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.26.12:545][ 22]LogAudioMixer: Display: StopRunningNullDevice() called
+[2022.04.19-10.26.12:557][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2022.04.19-10.26.12:580][ 23]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2022.04.19-10.26.13:580][130]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.26.13:585][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.26.13:585][130]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:26:13 PM)
+[2022.04.19-10.26.13:627][130]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.26.13:648][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022191s)
+[2022.04.19-10.26.13:649][130]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.26.13:649][130]LogPlayLevel: PIE: World Init took: (0.001244s)
+[2022.04.19-10.26.13:649][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.023583s)
+[2022.04.19-10.26.13:674][130]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2022.04.19-10.26.13:674][130]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.04.19-10.26.13:675][130]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.26.13:675][130]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.26.13:675][130]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.26.13:675][130]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.26.13:675][130]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.26.13:675][130]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.26.13:675][130]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.26.13:675][130]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.26.13:675][130]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.26.13:675][130]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.26.13:675][130]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.26.13:675][130]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.26.13:676][130]LogAudioMixer: Display: Using Audio Device Unknown
+[2022.04.19-10.26.13:676][130]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.26.13:676][130]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.26.13:677][130]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.26.13:677][130]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.26.13:677][130]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.26.13:677][130]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.26.13:678][130]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.26.13:678][130]LogAudioMixer: Display: StartRunningNullDevice() called
+[2022.04.19-10.26.13:679][130]LogInit: FAudioDevice initialized.
+[2022.04.19-10.26.13:679][130]LogAudio: Display: Audio Device (ID: 9) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.26.13:685][130]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.26.13:691][130]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.26.13
+[2022.04.19-10.26.13:692][130]LogWorld: Bringing up level for play took: 0.003909
+[2022.04.19-10.26.13:692][130]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2022.04.19-10.26.13:695][130]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.26.13:695][130]PIE: Server logged in
+[2022.04.19-10.26.13:695][130]PIE: Play in editor total start time 0.111 seconds.
+[2022.04.19-10.26.17:586][485]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.26.17:586][485]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.26.17:586][485]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.26.17:587][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.26.17:603][485]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.26.17:609][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.26.17:635][485]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.26.17:635][485]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.26.17:636][485]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.26.17:636][485]LogAudioMixer: Display: StopRunningNullDevice() called
+[2022.04.19-10.26.17:656][485]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2022.04.19-10.26.17:684][486]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.04.19-10.26.20:657][828]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.26.20:663][828]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.26.20:663][828]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:26:20 PM)
+[2022.04.19-10.26.20:687][828]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.26.20:708][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020900s)
+[2022.04.19-10.26.20:709][828]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.26.20:709][828]LogPlayLevel: PIE: World Init took: (0.001131s)
+[2022.04.19-10.26.20:709][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.022204s)
+[2022.04.19-10.26.20:733][828]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2022.04.19-10.26.20:735][828]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.04.19-10.26.20:735][828]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.26.20:735][828]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.26.20:735][828]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.26.20:735][828]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.26.20:735][828]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.26.20:735][828]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.26.20:735][828]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.26.20:735][828]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.26.20:735][828]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.26.20:735][828]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.26.20:735][828]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.26.20:735][828]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.26.20:736][828]LogAudioMixer: Display: Using Audio Device Unknown
+[2022.04.19-10.26.20:737][828]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.26.20:737][828]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.26.20:737][828]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.26.20:737][828]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.26.20:737][828]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.26.20:737][828]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.26.20:738][828]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.26.20:738][828]LogAudioMixer: Display: StartRunningNullDevice() called
+[2022.04.19-10.26.20:739][828]LogInit: FAudioDevice initialized.
+[2022.04.19-10.26.20:739][828]LogAudio: Display: Audio Device (ID: 10) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.26.20:754][828]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.26.20:767][828]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.26.20
+[2022.04.19-10.26.20:768][828]LogWorld: Bringing up level for play took: 0.004986
+[2022.04.19-10.26.20:768][828]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2022.04.19-10.26.20:770][828]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.26.20:770][828]PIE: Server logged in
+[2022.04.19-10.26.20:771][828]PIE: Play in editor total start time 0.109 seconds.
+[2022.04.19-10.26.24:260][209]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.26.24:260][209]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.26.24:260][209]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.26.24:261][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.26.24:268][209]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.26.24:274][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.26.24:296][209]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.26.24:296][209]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.26.24:297][209]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.26.24:297][209]LogAudioMixer: Display: StopRunningNullDevice() called
+[2022.04.19-10.26.24:307][209]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.04.19-10.26.24:353][211]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2022.04.19-10.26.29:673][728]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.26.29:678][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.26.29:678][728]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:26:29 PM)
+[2022.04.19-10.26.29:678][728]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.26.29:697][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018943s)
+[2022.04.19-10.26.29:698][728]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.26.29:699][728]LogPlayLevel: PIE: World Init took: (0.001200s)
+[2022.04.19-10.26.29:699][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.020277s)
+[2022.04.19-10.26.29:725][728]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2022.04.19-10.26.29:727][728]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.04.19-10.26.29:728][728]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.26.29:728][728]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.26.29:728][728]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.26.29:728][728]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.26.29:728][728]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.26.29:728][728]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.26.29:728][728]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.26.29:728][728]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.26.29:728][728]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.26.29:728][728]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.26.29:729][728]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.26.29:729][728]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.26.29:730][728]LogAudioMixer: Display: Using Audio Device Unknown
+[2022.04.19-10.26.29:730][728]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.26.29:730][728]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.26.29:730][728]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.26.29:730][728]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.26.29:730][728]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.26.29:730][728]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.26.29:731][728]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.26.29:731][728]LogAudioMixer: Display: StartRunningNullDevice() called
+[2022.04.19-10.26.29:732][728]LogInit: FAudioDevice initialized.
+[2022.04.19-10.26.29:732][728]LogAudio: Display: Audio Device (ID: 11) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.26.29:744][728]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.26.29:751][728]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.26.29
+[2022.04.19-10.26.29:752][728]LogWorld: Bringing up level for play took: 0.004287
+[2022.04.19-10.26.29:752][728]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2022.04.19-10.26.29:754][728]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.26.29:755][728]PIE: Server logged in
+[2022.04.19-10.26.29:755][728]PIE: Play in editor total start time 0.078 seconds.
+[2022.04.19-10.26.40:038][947]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.26.40:038][947]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.26.40:038][947]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.26.40:038][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.26.40:050][947]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.26.40:055][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.26.40:076][947]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.26.40:077][947]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.26.40:078][947]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.26.40:078][947]LogAudioMixer: Display: StopRunningNullDevice() called
+[2022.04.19-10.26.40:085][947]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2022.04.19-10.26.40:109][948]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2022.04.19-10.26.55:545][746]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.26.55:551][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.26.55:551][746]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:26:55 PM)
+[2022.04.19-10.26.55:588][746]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.26.55:633][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044950s)
+[2022.04.19-10.26.55:634][746]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.26.55:635][746]LogPlayLevel: PIE: World Init took: (0.001584s)
+[2022.04.19-10.26.55:635][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.046795s)
+[2022.04.19-10.26.55:659][746]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2022.04.19-10.26.55:663][746]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.04.19-10.26.55:663][746]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.26.55:663][746]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.26.55:663][746]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.26.55:663][746]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.26.55:663][746]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.26.55:663][746]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.26.55:663][746]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.26.55:663][746]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.26.55:663][746]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.26.55:663][746]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.26.55:663][746]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.26.55:663][746]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.26.55:664][746]LogAudioMixer: Display: Using Audio Device Unknown
+[2022.04.19-10.26.55:665][746]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.26.55:665][746]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.26.55:665][746]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.26.55:665][746]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.26.55:665][746]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.26.55:665][746]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.26.55:666][746]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.26.55:666][746]LogAudioMixer: Display: StartRunningNullDevice() called
+[2022.04.19-10.26.55:667][746]LogInit: FAudioDevice initialized.
+[2022.04.19-10.26.55:667][746]LogAudio: Display: Audio Device (ID: 12) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.26.55:673][746]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.26.55:679][746]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.26.55
+[2022.04.19-10.26.55:680][746]LogWorld: Bringing up level for play took: 0.004154
+[2022.04.19-10.26.55:680][746]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2022.04.19-10.26.55:683][746]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.26.55:683][746]PIE: Server logged in
+[2022.04.19-10.26.55:683][746]PIE: Play in editor total start time 0.133 seconds.
+[2022.04.19-10.27.00:747][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.27.00:747][340]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.27.00:748][340]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.27.00:749][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.27.00:769][340]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.27.00:777][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.27.00:805][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.27.00:806][340]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.27.00:807][340]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.27.00:807][340]LogAudioMixer: Display: StopRunningNullDevice() called
+[2022.04.19-10.27.00:813][340]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2022.04.19-10.27.00:836][341]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2022.04.19-10.27.15:613][629]LogSlate: Window 'Editor Preferences' being destroyed
+[2022.04.19-10.27.15:620][629]LogSlate: Window 'Editor Preferences' being destroyed
+[2022.04.19-10.27.18:468][847]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.04.19-10.28.07:234][901]LogSlate: Window 'Project Settings' being destroyed
+[2022.04.19-10.28.07:245][901]LogSlate: Window 'Project Settings' being destroyed
+[2022.04.19-10.28.08:436][  3]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.28.08:441][  3]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.28.08:441][  3]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:28:08 PM)
+[2022.04.19-10.28.08:464][  3]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.28.08:486][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021779s)
+[2022.04.19-10.28.08:487][  3]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.28.08:487][  3]LogPlayLevel: PIE: World Init took: (0.001228s)
+[2022.04.19-10.28.08:487][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.023212s)
+[2022.04.19-10.28.08:559][  3]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2022.04.19-10.28.08:567][  3]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.04.19-10.28.08:567][  3]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.28.08:567][  3]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.28.08:567][  3]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.28.08:567][  3]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.28.08:567][  3]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.28.08:567][  3]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.28.08:567][  3]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.28.08:567][  3]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.28.08:568][  3]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.28.08:568][  3]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.28.08:568][  3]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.28.08:568][  3]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.28.08:569][  3]LogAudioMixer: Display: Using Audio Device Unknown
+[2022.04.19-10.28.08:569][  3]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.28.08:569][  3]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.28.08:569][  3]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.28.08:569][  3]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.28.08:569][  3]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.28.08:569][  3]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.28.08:570][  3]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.28.08:570][  3]LogAudioMixer: Display: StartRunningNullDevice() called
+[2022.04.19-10.28.08:571][  3]LogInit: FAudioDevice initialized.
+[2022.04.19-10.28.08:571][  3]LogAudio: Display: Audio Device (ID: 13) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.28.08:582][  3]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.28.08:589][  3]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.28.08
+[2022.04.19-10.28.08:589][  3]LogWorld: Bringing up level for play took: 0.003936
+[2022.04.19-10.28.08:590][  3]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2022.04.19-10.28.08:592][  3]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.28.08:592][  3]PIE: Server logged in
+[2022.04.19-10.28.08:593][  3]PIE: Play in editor total start time 0.153 seconds.
+[2022.04.19-10.28.11:155][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.28.11:155][271]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.28.11:156][271]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.28.11:157][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.28.11:174][271]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.28.11:183][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.28.11:211][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.28.11:212][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.28.11:213][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.28.11:213][271]LogAudioMixer: Display: StopRunningNullDevice() called
+[2022.04.19-10.28.11:247][271]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2022.04.19-10.28.11:270][272]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2022.04.19-10.28.38:375][658]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2022.04.19-10.28.38:507][658]LogSavePackage: Moving 'E:/TD4/PFE/InfernalDrive/Saved/VehicleAdvExampleMap_Auto2BD3438FC48896E03D4ED5DAA5E133CDE.tmp' to 'E:/TD4/PFE/InfernalDrive/Saved/Autosaves/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap_Auto2.umap'
+[2022.04.19-10.28.38:509][658]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap' took 0.167
+[2022.04.19-10.28.38:509][658]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.167
+[2022.04.19-10.29.08:191][243]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.29.08:197][243]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.29.08:197][243]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:29:08 PM)
+[2022.04.19-10.29.08:219][243]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.29.08:239][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020485s)
+[2022.04.19-10.29.08:240][243]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.29.08:241][243]LogPlayLevel: PIE: World Init took: (0.001105s)
+[2022.04.19-10.29.08:241][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.021763s)
+[2022.04.19-10.29.08:265][243]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2022.04.19-10.29.08:267][243]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.04.19-10.29.08:267][243]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.29.08:267][243]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.29.08:267][243]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.29.08:267][243]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.29.08:267][243]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.29.08:267][243]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.29.08:267][243]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.29.08:267][243]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.29.08:268][243]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.29.08:268][243]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.29.08:268][243]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.29.08:268][243]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.29.08:269][243]LogAudioMixer: Display: Using Audio Device Unknown
+[2022.04.19-10.29.08:269][243]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.29.08:269][243]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.29.08:269][243]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.29.08:269][243]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.29.08:269][243]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.29.08:269][243]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.29.08:271][243]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.29.08:271][243]LogAudioMixer: Display: StartRunningNullDevice() called
+[2022.04.19-10.29.08:272][243]LogInit: FAudioDevice initialized.
+[2022.04.19-10.29.08:272][243]LogAudio: Display: Audio Device (ID: 14) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.29.08:280][243]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.29.08:286][243]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.29.08
+[2022.04.19-10.29.08:287][243]LogWorld: Bringing up level for play took: 0.003835
+[2022.04.19-10.29.08:287][243]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2022.04.19-10.29.08:289][243]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.29.08:289][243]PIE: Server logged in
+[2022.04.19-10.29.08:290][243]PIE: Play in editor total start time 0.095 seconds.
+[2022.04.19-10.29.12:754][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.29.12:754][755]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.29.12:755][755]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.29.12:756][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.29.12:772][755]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.29.12:779][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.29.12:809][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.29.12:810][755]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.29.12:811][755]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.29.12:811][755]LogAudioMixer: Display: StopRunningNullDevice() called
+[2022.04.19-10.29.12:820][755]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2022.04.19-10.29.12:843][756]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.04.19-10.29.14:071][896]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.29.14:076][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.29.14:076][896]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:29:14 PM)
+[2022.04.19-10.29.14:106][896]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.29.14:126][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020571s)
+[2022.04.19-10.29.14:127][896]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.29.14:127][896]LogPlayLevel: PIE: World Init took: (0.001102s)
+[2022.04.19-10.29.14:128][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.021828s)
+[2022.04.19-10.29.14:150][896]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2022.04.19-10.29.14:151][896]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.04.19-10.29.14:151][896]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.29.14:152][896]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.29.14:152][896]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.29.14:152][896]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.29.14:152][896]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.29.14:152][896]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.29.14:152][896]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.29.14:152][896]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.29.14:152][896]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.29.14:152][896]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.29.14:152][896]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.29.14:152][896]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.29.14:153][896]LogAudioMixer: Display: Using Audio Device Unknown
+[2022.04.19-10.29.14:153][896]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.29.14:153][896]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.29.14:153][896]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.29.14:154][896]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.29.14:154][896]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.29.14:154][896]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.29.14:155][896]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.29.14:155][896]LogAudioMixer: Display: StartRunningNullDevice() called
+[2022.04.19-10.29.14:155][896]LogInit: FAudioDevice initialized.
+[2022.04.19-10.29.14:155][896]LogAudio: Display: Audio Device (ID: 15) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.29.14:167][896]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.29.14:172][896]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.29.14
+[2022.04.19-10.29.14:173][896]LogWorld: Bringing up level for play took: 0.003835
+[2022.04.19-10.29.14:173][896]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2022.04.19-10.29.14:176][896]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.29.14:176][896]PIE: Server logged in
+[2022.04.19-10.29.14:176][896]PIE: Play in editor total start time 0.102 seconds.
+[2022.04.19-10.29.20:088][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.29.20:088][558]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.29.20:088][558]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.29.20:089][558]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.29.20:097][558]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.29.20:102][558]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.29.20:123][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.29.20:124][558]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.29.20:125][558]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.29.20:125][558]LogAudioMixer: Display: StopRunningNullDevice() called
+[2022.04.19-10.29.20:135][558]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2022.04.19-10.29.20:158][559]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.04.19-10.31.29:040][928]LogSlate: Window 'Editor Preferences' being destroyed
+[2022.04.19-10.31.29:044][928]LogSlate: Window 'Editor Preferences' being destroyed
+[2022.04.19-10.31.30:246][ 34]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.31.30:251][ 34]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.31.30:251][ 34]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:31:30 PM)
+[2022.04.19-10.31.30:278][ 34]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.31.30:299][ 34]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021296s)
+[2022.04.19-10.31.30:300][ 34]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.31.30:300][ 34]LogPlayLevel: PIE: World Init took: (0.001276s)
+[2022.04.19-10.31.30:301][ 34]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.022722s)
+[2022.04.19-10.31.30:326][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2022.04.19-10.31.30:334][ 34]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.04.19-10.31.30:334][ 34]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.31.30:334][ 34]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.31.30:334][ 34]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.31.30:334][ 34]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.31.30:334][ 34]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.31.30:334][ 34]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.31.30:334][ 34]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.31.30:334][ 34]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.31.30:335][ 34]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.31.30:335][ 34]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.31.30:335][ 34]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.31.30:335][ 34]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.31.30:336][ 34]LogAudioMixer: Display: Using Audio Device Unknown
+[2022.04.19-10.31.30:336][ 34]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.31.30:336][ 34]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.31.30:336][ 34]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.31.30:337][ 34]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.31.30:337][ 34]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.31.30:337][ 34]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.31.30:338][ 34]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.31.30:338][ 34]LogAudioMixer: Display: StartRunningNullDevice() called
+[2022.04.19-10.31.30:339][ 34]LogInit: FAudioDevice initialized.
+[2022.04.19-10.31.30:339][ 34]LogAudio: Display: Audio Device (ID: 16) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.31.30:346][ 34]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.31.30:353][ 34]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.31.30
+[2022.04.19-10.31.30:354][ 34]LogWorld: Bringing up level for play took: 0.004503
+[2022.04.19-10.31.30:354][ 34]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2022.04.19-10.31.30:357][ 34]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.31.30:357][ 34]PIE: Server logged in
+[2022.04.19-10.31.30:358][ 34]PIE: Play in editor total start time 0.108 seconds.
+[2022.04.19-10.31.35:546][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.31.35:546][629]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.31.35:546][629]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.31.35:547][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.31.35:558][629]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.31.35:562][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.31.35:584][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.31.35:584][629]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.31.35:585][629]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.31.35:585][629]LogAudioMixer: Display: StopRunningNullDevice() called
+[2022.04.19-10.31.35:592][629]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2022.04.19-10.31.35:615][630]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2022.04.19-10.32.09:352][972]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.32.09:358][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.32.09:358][972]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:32:09 PM)
+[2022.04.19-10.32.09:358][972]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.32.09:378][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019600s)
+[2022.04.19-10.32.09:379][972]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.32.09:379][972]LogPlayLevel: PIE: World Init took: (0.001453s)
+[2022.04.19-10.32.09:379][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.021181s)
+[2022.04.19-10.32.09:403][972]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2022.04.19-10.32.09:405][972]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.04.19-10.32.09:405][972]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.32.09:405][972]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.32.09:405][972]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.32.09:405][972]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.32.09:405][972]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.32.09:405][972]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.32.09:405][972]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.32.09:405][972]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.32.09:406][972]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.32.09:406][972]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.32.09:406][972]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.32.09:406][972]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.32.09:407][972]LogAudioMixer: Display: Using Audio Device Unknown
+[2022.04.19-10.32.09:407][972]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.32.09:407][972]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.32.09:407][972]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.32.09:407][972]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.32.09:407][972]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.32.09:407][972]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.32.09:408][972]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.32.09:409][972]LogAudioMixer: Display: StartRunningNullDevice() called
+[2022.04.19-10.32.09:409][972]LogInit: FAudioDevice initialized.
+[2022.04.19-10.32.09:409][972]LogAudio: Display: Audio Device (ID: 17) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.32.09:416][972]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.32.09:424][972]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.32.09
+[2022.04.19-10.32.09:425][972]LogWorld: Bringing up level for play took: 0.005567
+[2022.04.19-10.32.09:425][972]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2022.04.19-10.32.09:428][972]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.32.09:428][972]PIE: Server logged in
+[2022.04.19-10.32.09:429][972]PIE: Play in editor total start time 0.071 seconds.
+[2022.04.19-10.32.21:762][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.32.21:762][378]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.32.21:762][378]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.32.21:763][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.32.21:770][378]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.32.21:775][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.32.21:797][378]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.19-10.32.21:798][378]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.32.21:798][378]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.32.21:798][378]LogAudioMixer: Display: StopRunningNullDevice() called
+[2022.04.19-10.32.21:806][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.32.21:810][378]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2022.04.19-10.32.21:858][380]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2022.04.19-10.32.22:986][506]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.32.22:991][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.32.22:991][506]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:32:22 PM)
+[2022.04.19-10.32.22:991][506]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.32.23:012][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020397s)
+[2022.04.19-10.32.23:013][506]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.32.23:013][506]LogPlayLevel: PIE: World Init took: (0.001093s)
+[2022.04.19-10.32.23:013][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.021659s)
+[2022.04.19-10.32.23:037][506]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2022.04.19-10.32.23:038][506]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.04.19-10.32.23:038][506]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.32.23:038][506]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.32.23:038][506]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.32.23:038][506]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.32.23:038][506]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.32.23:038][506]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.32.23:038][506]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.32.23:038][506]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.32.23:039][506]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.32.23:039][506]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.32.23:039][506]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.32.23:039][506]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.32.23:040][506]LogAudioMixer: Display: Using Audio Device Unknown
+[2022.04.19-10.32.23:040][506]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.32.23:040][506]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.32.23:040][506]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.32.23:040][506]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.32.23:040][506]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.32.23:040][506]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.32.23:041][506]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.32.23:041][506]LogAudioMixer: Display: StartRunningNullDevice() called
+[2022.04.19-10.32.23:042][506]LogInit: FAudioDevice initialized.
+[2022.04.19-10.32.23:042][506]LogAudio: Display: Audio Device (ID: 18) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.32.23:047][506]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.32.23:053][506]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.32.23
+[2022.04.19-10.32.23:054][506]LogWorld: Bringing up level for play took: 0.003814
+[2022.04.19-10.32.23:054][506]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2022.04.19-10.32.23:057][506]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.32.23:057][506]PIE: Server logged in
+[2022.04.19-10.32.23:058][506]PIE: Play in editor total start time 0.067 seconds.
+[2022.04.19-10.32.35:524][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.32.35:524][990]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.32.35:524][990]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.32.35:525][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.32.35:532][990]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.32.35:537][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.32.35:557][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.32.35:558][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.32.35:558][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.32.35:558][990]LogAudioMixer: Display: StopRunningNullDevice() called
+[2022.04.19-10.32.35:570][990]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2022.04.19-10.32.35:594][991]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2022.04.19-10.32.41:114][639]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.32.41:119][639]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.32.41:119][639]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:32:41 PM)
+[2022.04.19-10.32.41:148][639]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.32.41:167][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018741s)
+[2022.04.19-10.32.41:168][639]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.32.41:168][639]LogPlayLevel: PIE: World Init took: (0.001451s)
+[2022.04.19-10.32.41:168][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.020380s)
+[2022.04.19-10.32.41:192][639]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2022.04.19-10.32.41:193][639]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2022.04.19-10.32.41:193][639]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.32.41:193][639]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.32.41:193][639]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.32.41:193][639]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.32.41:193][639]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.32.41:193][639]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.32.41:193][639]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.32.41:193][639]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.32.41:194][639]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.32.41:194][639]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.32.41:194][639]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.32.41:194][639]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.32.41:195][639]LogAudioMixer: Display: Using Audio Device Unknown
+[2022.04.19-10.32.41:195][639]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.32.41:195][639]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.32.41:195][639]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.32.41:195][639]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.32.41:196][639]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.32.41:196][639]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.32.41:197][639]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.32.41:197][639]LogAudioMixer: Display: StartRunningNullDevice() called
+[2022.04.19-10.32.41:198][639]LogInit: FAudioDevice initialized.
+[2022.04.19-10.32.41:198][639]LogAudio: Display: Audio Device (ID: 19) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.32.41:209][639]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.32.41:216][639]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.32.41
+[2022.04.19-10.32.41:217][639]LogWorld: Bringing up level for play took: 0.004594
+[2022.04.19-10.32.41:217][639]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2022.04.19-10.32.41:221][639]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.32.41:221][639]PIE: Server logged in
+[2022.04.19-10.32.41:222][639]PIE: Play in editor total start time 0.103 seconds.
+[2022.04.19-10.33.12:879][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.33.12:879][257]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.33.12:879][257]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.33.12:880][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.33.12:891][257]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.33.12:897][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.33.12:921][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.33.12:922][257]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.33.12:923][257]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.33.12:923][257]LogAudioMixer: Display: StopRunningNullDevice() called
+[2022.04.19-10.33.12:948][257]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2022.04.19-10.33.12:970][258]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2022.04.19-10.39.10:420][609]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{4c83bcb4-1851-4323-b363-ca0c46786d38}.
+[2022.04.19-10.39.10:420][609]LogAudioMixer: Resetting audio stream to device id 
+[2022.04.19-10.39.10:420][609]LogAudioMixer: Display: StopRunningNullDevice() called
+[2022.04.19-10.39.10:445][609]LogAudioMixer: Warning: Did not find the channel type flags for audio device 'Casque (Jabra Elite 85t Hands-Free AG Audio)'. Reverting to a default channel ordering.
+[2022.04.19-10.39.10:445][609]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.19-10.39.10:446][609]LogAudioMixer: Display: 1: FrontRight
+[2022.04.19-10.39.13:084][609]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.19-10.39.13:102][610]LogAudioMixer: Resetting audio stream to device id 
+[2022.04.19-10.39.13:173][610]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.19-10.39.13:173][610]LogAudioMixer: Display: 1: FrontRight
+[2022.04.19-10.39.51:394][724]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2022.04.19-10.39.51:564][724]LogSavePackage: Moving 'E:/TD4/PFE/InfernalDrive/Saved/VehicleAdvExampleMap_Auto37B424EA44E3B7C0ACC60B0A7A4EFB69F.tmp' to 'E:/TD4/PFE/InfernalDrive/Saved/Autosaves/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap_Auto3.umap'
+[2022.04.19-10.39.51:565][724]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap' took 0.205
+[2022.04.19-10.39.51:565][724]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.205
+[2022.04.19-10.39.51:565][724]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleAdvBP/Blueprints/VehicleBlueprint] ([4] browsable assets)...
+[2022.04.19-10.39.51:578][724]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint]
+[2022.04.19-10.39.51:589][724]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint]
+[2022.04.19-10.39.51:589][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleAdvBP/Blueprints/VehicleBlueprint]
+[2022.04.19-10.39.51:640][724]LogSavePackage: Moving 'E:/TD4/PFE/InfernalDrive/Saved/VehicleBlueprint_Auto3EB828B5E4A2C294C115E50BBFFB1D0C0.tmp' to 'E:/TD4/PFE/InfernalDrive/Saved/Autosaves/Game/VehicleAdvBP/Blueprints/VehicleBlueprint_Auto3.uasset'
+[2022.04.19-10.39.51:640][724]LogFileHelpers: Auto-saving content packages took 0.076
+[2022.04.19-10.41.40:938][666]BlueprintLog: New page: Compile VehicleBlueprint
+[2022.04.19-10.41.41:016][666]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2022.04.19-10.42.17:368][806]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.42.17:373][806]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.42.17:374][806]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:42:17 PM)
+[2022.04.19-10.42.17:374][806]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.42.17:393][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019481s)
+[2022.04.19-10.42.17:394][806]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.42.17:394][806]LogPlayLevel: PIE: World Init took: (0.001527s)
+[2022.04.19-10.42.17:394][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.021156s)
+[2022.04.19-10.42.17:423][806]LogUObjectHash: Compacting FUObjectHashTables data took   5.07ms
+[2022.04.19-10.42.17:426][806]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2022.04.19-10.42.17:426][806]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.42.17:426][806]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.42.17:426][806]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.42.17:426][806]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.42.17:426][806]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.42.17:426][806]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.42.17:426][806]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.42.17:426][806]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.42.17:427][806]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.42.17:427][806]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.42.17:427][806]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.42.17:427][806]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.42.17:431][806]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.19-10.42.17:432][806]LogAudioMixer: Display: 1: FrontRight
+[2022.04.19-10.42.17:443][806]LogAudioMixer: Display: Using Audio Device Casque (Jabra Elite 85t Stereo)
+[2022.04.19-10.42.17:443][806]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.42.17:443][806]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.42.17:443][806]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.42.17:443][806]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.42.17:443][806]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.42.17:443][806]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.42.17:444][806]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.42.17:444][806]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.19-10.42.17:444][806]LogInit: FAudioDevice initialized.
+[2022.04.19-10.42.17:444][806]LogAudio: Display: Audio Device (ID: 20) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.42.17:451][806]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.42.17:459][806]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.42.17
+[2022.04.19-10.42.17:460][806]LogWorld: Bringing up level for play took: 0.004571
+[2022.04.19-10.42.17:460][806]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2022.04.19-10.42.17:463][806]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.42.17:463][806]PIE: Server logged in
+[2022.04.19-10.42.17:464][806]PIE: Play in editor total start time 0.091 seconds.
+[2022.04.19-10.42.39:253][294]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.42.39:253][294]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.42.39:254][294]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.42.39:256][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.42.39:279][294]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.42.39:284][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.42.39:306][294]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.42.39:307][294]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.42.39:308][294]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.42.39:313][294]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.04.19-10.42.39:337][295]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2022.04.19-10.43.48:305][728]BlueprintLog: New page: Compile VehicleBlueprint
+[2022.04.19-10.43.48:385][728]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2022.04.19-10.43.55:037][190]BlueprintLog: New page: Compile VehicleBlueprint
+[2022.04.19-10.43.55:119][190]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2022.04.19-10.43.55:922][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Blueprints/VehicleBlueprint" FILE="E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset" SILENT=true
+[2022.04.19-10.43.55:973][226]LogSavePackage: Moving 'E:/TD4/PFE/InfernalDrive/Saved/VehicleBlueprintF10C72374916F3CCA1DDDBA8FDA06544.tmp' to 'E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2022.04.19-10.43.55:987][226]AssetCheck: New page: Asset Save: VehicleBlueprint
+[2022.04.19-10.43.55:987][226]LogContentValidation: Display: Validating Blueprint /Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint
+[2022.04.19-10.44.04:790][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Blueprints/VehicleBlueprint" FILE="E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset" SILENT=true
+[2022.04.19-10.44.04:839][870]LogSavePackage: Moving 'E:/TD4/PFE/InfernalDrive/Saved/VehicleBlueprint6E2990FF4578925C558C8A9F90F5479A.tmp' to 'E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2022.04.19-10.44.04:886][870]AssetCheck: New page: Asset Save: VehicleBlueprint
+[2022.04.19-10.44.04:886][870]LogContentValidation: Display: Validating Blueprint /Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint
+[2022.04.19-10.44.09:914][352]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.44.09:920][352]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.44.09:920][352]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:44:09 PM)
+[2022.04.19-10.44.09:942][352]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.44.09:964][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021574s)
+[2022.04.19-10.44.09:965][352]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.44.09:965][352]LogPlayLevel: PIE: World Init took: (0.002000s)
+[2022.04.19-10.44.09:965][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.023788s)
+[2022.04.19-10.44.09:995][352]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2022.04.19-10.44.09:998][352]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2022.04.19-10.44.09:998][352]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.44.09:998][352]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.44.09:998][352]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.44.09:998][352]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.44.09:998][352]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.44.09:998][352]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.44.09:998][352]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.44.09:998][352]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.44.09:998][352]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.44.09:998][352]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.44.09:998][352]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.44.09:998][352]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.44.10:002][352]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.19-10.44.10:002][352]LogAudioMixer: Display: 1: FrontRight
+[2022.04.19-10.44.10:011][352]LogAudioMixer: Display: Using Audio Device Casque (Jabra Elite 85t Stereo)
+[2022.04.19-10.44.10:011][352]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.44.10:011][352]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.44.10:011][352]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.44.10:012][352]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.44.10:012][352]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.44.10:012][352]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.44.10:013][352]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.44.10:013][352]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.19-10.44.10:013][352]LogInit: FAudioDevice initialized.
+[2022.04.19-10.44.10:013][352]LogAudio: Display: Audio Device (ID: 21) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.44.10:025][352]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.44.10:033][352]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.44.10
+[2022.04.19-10.44.10:033][352]LogWorld: Bringing up level for play took: 0.004532
+[2022.04.19-10.44.10:034][352]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2022.04.19-10.44.10:036][352]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.44.10:037][352]PIE: Server logged in
+[2022.04.19-10.44.10:037][352]PIE: Play in editor total start time 0.118 seconds.
+[2022.04.19-10.44.14:585][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.44.14:585][884]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.44.14:585][884]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.44.14:586][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.44.14:615][884]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.44.14:621][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.44.14:642][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.44.14:643][884]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.44.14:644][884]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.44.14:651][884]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2022.04.19-10.44.14:675][885]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2022.04.19-10.44.24:579][614]BlueprintLog: New page: Compile VehicleBlueprint
+[2022.04.19-10.44.24:655][614]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2022.04.19-10.44.25:131][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Blueprints/VehicleBlueprint" FILE="E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset" SILENT=true
+[2022.04.19-10.44.25:181][636]LogSavePackage: Moving 'E:/TD4/PFE/InfernalDrive/Saved/VehicleBlueprint3DE1A3D64E49D2C23D628E8E8FFBB35A.tmp' to 'E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2022.04.19-10.44.25:194][636]AssetCheck: New page: Asset Save: VehicleBlueprint
+[2022.04.19-10.44.25:194][636]LogContentValidation: Display: Validating Blueprint /Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint
+[2022.04.19-10.44.29:143][898]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.44.29:149][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.44.29:149][898]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:44:29 PM)
+[2022.04.19-10.44.29:192][898]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.44.29:238][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046303s)
+[2022.04.19-10.44.29:240][898]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.44.29:240][898]LogPlayLevel: PIE: World Init took: (0.001551s)
+[2022.04.19-10.44.29:240][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.048108s)
+[2022.04.19-10.44.29:265][898]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2022.04.19-10.44.29:267][898]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2022.04.19-10.44.29:267][898]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.44.29:267][898]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.44.29:267][898]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.44.29:267][898]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.44.29:267][898]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.44.29:267][898]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.44.29:267][898]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.44.29:267][898]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.44.29:267][898]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.44.29:267][898]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.44.29:267][898]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.44.29:267][898]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.44.29:270][898]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.19-10.44.29:270][898]LogAudioMixer: Display: 1: FrontRight
+[2022.04.19-10.44.29:279][898]LogAudioMixer: Display: Using Audio Device Casque (Jabra Elite 85t Stereo)
+[2022.04.19-10.44.29:279][898]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.44.29:279][898]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.44.29:279][898]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.44.29:279][898]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.44.29:279][898]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.44.29:279][898]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.44.29:280][898]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.44.29:280][898]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.19-10.44.29:280][898]LogInit: FAudioDevice initialized.
+[2022.04.19-10.44.29:280][898]LogAudio: Display: Audio Device (ID: 22) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.44.29:288][898]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.44.29:295][898]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.44.29
+[2022.04.19-10.44.29:296][898]LogWorld: Bringing up level for play took: 0.003972
+[2022.04.19-10.44.29:296][898]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2022.04.19-10.44.29:299][898]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.44.29:299][898]PIE: Server logged in
+[2022.04.19-10.44.29:300][898]PIE: Play in editor total start time 0.151 seconds.
+[2022.04.19-10.44.58:253][847]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.44.58:253][847]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.44.58:253][847]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.44.58:254][847]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.44.58:271][847]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.44.58:277][847]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.44.58:300][847]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.19-10.44.58:301][847]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.44.58:302][847]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.44.58:304][847]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.44.58:311][847]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2022.04.19-10.44.58:334][848]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2022.04.19-10.45.00:640][ 79]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.45.00:645][ 79]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.45.00:645][ 79]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:45:00 PM)
+[2022.04.19-10.45.00:646][ 79]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.45.00:665][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019296s)
+[2022.04.19-10.45.00:666][ 79]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.45.00:666][ 79]LogPlayLevel: PIE: World Init took: (0.001091s)
+[2022.04.19-10.45.00:666][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.020503s)
+[2022.04.19-10.45.00:690][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.04.19-10.45.00:692][ 79]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2022.04.19-10.45.00:692][ 79]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.45.00:692][ 79]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.45.00:692][ 79]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.45.00:692][ 79]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.45.00:692][ 79]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.45.00:692][ 79]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.45.00:692][ 79]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.45.00:692][ 79]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.45.00:692][ 79]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.45.00:692][ 79]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.45.00:692][ 79]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.45.00:692][ 79]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.45.00:696][ 79]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.19-10.45.00:696][ 79]LogAudioMixer: Display: 1: FrontRight
+[2022.04.19-10.45.00:704][ 79]LogAudioMixer: Display: Using Audio Device Casque (Jabra Elite 85t Stereo)
+[2022.04.19-10.45.00:704][ 79]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.45.00:704][ 79]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.45.00:704][ 79]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.45.00:704][ 79]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.45.00:704][ 79]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.45.00:704][ 79]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.45.00:705][ 79]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.45.00:705][ 79]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.19-10.45.00:705][ 79]LogInit: FAudioDevice initialized.
+[2022.04.19-10.45.00:705][ 79]LogAudio: Display: Audio Device (ID: 23) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.45.00:716][ 79]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.45.00:722][ 79]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.45.00
+[2022.04.19-10.45.00:723][ 79]LogWorld: Bringing up level for play took: 0.003838
+[2022.04.19-10.45.00:723][ 79]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2022.04.19-10.45.00:726][ 79]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.45.00:726][ 79]PIE: Server logged in
+[2022.04.19-10.45.00:726][ 79]PIE: Play in editor total start time 0.082 seconds.
+[2022.04.19-10.45.01:722][192]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	Score_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.Score_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/Score.Score_C:Get_Score_Text_0:0047
+[2022.04.19-10.45.01:722][192]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:724][192]LogScript: Warning: Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill
+	LifeBar_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.LifeBar_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/LifeBar.LifeBar_C:GetPercent_2:0027
+[2022.04.19-10.45.01:724][192]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:728][193]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	Score_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.Score_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/Score.Score_C:Get_Score_Text_0:0047
+[2022.04.19-10.45.01:728][193]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:731][193]LogScript: Warning: Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill
+	LifeBar_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.LifeBar_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/LifeBar.LifeBar_C:GetPercent_2:0027
+[2022.04.19-10.45.01:731][193]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:737][194]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	Score_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.Score_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/Score.Score_C:Get_Score_Text_0:0047
+[2022.04.19-10.45.01:737][194]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:739][194]LogScript: Warning: Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill
+	LifeBar_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.LifeBar_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/LifeBar.LifeBar_C:GetPercent_2:0027
+[2022.04.19-10.45.01:739][194]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:745][195]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	Score_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.Score_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/Score.Score_C:Get_Score_Text_0:0047
+[2022.04.19-10.45.01:745][195]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:747][195]LogScript: Warning: Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill
+	LifeBar_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.LifeBar_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/LifeBar.LifeBar_C:GetPercent_2:0027
+[2022.04.19-10.45.01:747][195]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:754][196]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	Score_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.Score_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/Score.Score_C:Get_Score_Text_0:0047
+[2022.04.19-10.45.01:754][196]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:756][196]LogScript: Warning: Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill
+	LifeBar_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.LifeBar_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/LifeBar.LifeBar_C:GetPercent_2:0027
+[2022.04.19-10.45.01:756][196]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:762][197]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	Score_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.Score_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/Score.Score_C:Get_Score_Text_0:0047
+[2022.04.19-10.45.01:763][197]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:764][197]LogScript: Warning: Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill
+	LifeBar_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.LifeBar_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/LifeBar.LifeBar_C:GetPercent_2:0027
+[2022.04.19-10.45.01:764][197]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:771][198]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	Score_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.Score_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/Score.Score_C:Get_Score_Text_0:0047
+[2022.04.19-10.45.01:771][198]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:773][198]LogScript: Warning: Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill
+	LifeBar_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.LifeBar_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/LifeBar.LifeBar_C:GetPercent_2:0027
+[2022.04.19-10.45.01:773][198]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:779][199]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	Score_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.Score_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/Score.Score_C:Get_Score_Text_0:0047
+[2022.04.19-10.45.01:779][199]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:781][199]LogScript: Warning: Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill
+	LifeBar_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.LifeBar_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/LifeBar.LifeBar_C:GetPercent_2:0027
+[2022.04.19-10.45.01:781][199]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:787][200]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	Score_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.Score_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/Score.Score_C:Get_Score_Text_0:0047
+[2022.04.19-10.45.01:788][200]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:789][200]LogScript: Warning: Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill
+	LifeBar_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.LifeBar_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/LifeBar.LifeBar_C:GetPercent_2:0027
+[2022.04.19-10.45.01:789][200]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:796][201]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	Score_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.Score_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/Score.Score_C:Get_Score_Text_0:0047
+[2022.04.19-10.45.01:796][201]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:798][201]LogScript: Warning: Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill
+	LifeBar_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.LifeBar_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/LifeBar.LifeBar_C:GetPercent_2:0027
+[2022.04.19-10.45.01:798][201]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:805][202]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	Score_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.Score_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/Score.Score_C:Get_Score_Text_0:0047
+[2022.04.19-10.45.01:805][202]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:807][202]LogScript: Warning: Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill
+	LifeBar_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.LifeBar_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/LifeBar.LifeBar_C:GetPercent_2:0027
+[2022.04.19-10.45.01:807][202]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:812][203]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	Score_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.Score_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/Score.Score_C:Get_Score_Text_0:0047
+[2022.04.19-10.45.01:812][203]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:814][203]LogScript: Warning: Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill
+	LifeBar_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.LifeBar_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/LifeBar.LifeBar_C:GetPercent_2:0027
+[2022.04.19-10.45.01:814][203]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:820][204]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	Score_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.Score_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/Score.Score_C:Get_Score_Text_0:0047
+[2022.04.19-10.45.01:820][204]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:822][204]LogScript: Warning: Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill
+	LifeBar_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.LifeBar_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/LifeBar.LifeBar_C:GetPercent_2:0027
+[2022.04.19-10.45.01:822][204]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:829][205]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	Score_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.Score_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/Score.Score_C:Get_Score_Text_0:0047
+[2022.04.19-10.45.01:829][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:831][205]LogScript: Warning: Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill
+	LifeBar_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.LifeBar_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/LifeBar.LifeBar_C:GetPercent_2:0027
+[2022.04.19-10.45.01:831][205]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:837][206]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	Score_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.Score_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/Score.Score_C:Get_Score_Text_0:0047
+[2022.04.19-10.45.01:837][206]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:839][206]LogScript: Warning: Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill
+	LifeBar_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.LifeBar_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/LifeBar.LifeBar_C:GetPercent_2:0027
+[2022.04.19-10.45.01:839][206]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:845][207]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	Score_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.Score_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/Score.Score_C:Get_Score_Text_0:0047
+[2022.04.19-10.45.01:845][207]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:847][207]LogScript: Warning: Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill
+	LifeBar_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.LifeBar_C_0
+	Function /Game/VehicleAdvBP/Blueprints/Widget/LifeBar.LifeBar_C:GetPercent_2:0027
+[2022.04.19-10.45.01:847][207]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:854][208]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:856][208]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:863][209]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:865][209]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:871][210]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:873][210]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:879][211]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:881][211]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:889][212]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:907][212]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:912][213]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:914][213]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:920][214]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:923][214]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:928][215]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:930][215]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:936][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:939][216]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:945][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:948][217]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:953][218]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:955][218]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:961][219]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:964][219]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:970][220]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:973][220]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:979][221]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:981][221]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:986][222]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:988][222]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.01:995][223]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.01:997][223]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:003][224]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:005][224]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:012][225]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:014][225]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:020][226]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:022][226]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:028][227]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:029][227]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:038][228]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:056][228]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:061][229]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:064][229]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:070][230]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:072][230]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:078][231]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:080][231]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:085][232]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:088][232]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:094][233]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:096][233]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:102][234]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:104][234]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:111][235]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:113][235]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:119][236]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:121][236]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:127][237]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:130][237]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:136][238]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:138][238]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:144][239]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:146][239]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:152][240]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:155][240]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:161][241]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:163][241]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:169][242]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:171][242]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:177][243]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:180][243]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:185][244]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:187][244]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:194][245]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:197][245]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:203][246]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:205][246]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:211][247]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:213][247]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:220][248]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:222][248]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:228][249]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:230][249]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:236][250]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:238][250]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:244][251]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:246][251]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:252][252]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:254][252]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:260][253]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:262][253]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:268][254]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:270][254]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:277][255]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:278][255]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:285][256]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:287][256]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:293][257]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:295][257]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:302][258]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Score Function:  Get Score Text 0 Graph:  Get_Score_Text_0 Node:  Return Node
+[2022.04.19-10.45.02:303][258]PIE: Error: Blueprint Runtime Error: "Attempted to access VehicleBlueprint_C_1 via property VecRef, but VehicleBlueprint_C_1 is pending kill". Blueprint:  LifeBar Function:  Get Percent 2 Graph:  GetPercent_2 Node:  Return Node
+[2022.04.19-10.45.02:353][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.45.02:353][259]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.45.02:353][259]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.45.02:354][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.45.02:364][259]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.45.02:369][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.45.02:392][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.45.02:393][259]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.45.02:394][259]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.45.02:400][259]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2022.04.19-10.45.02:532][260]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2022.04.19-10.45.04:107][345]LogSlate: Window 'Message Log' being destroyed
+[2022.04.19-10.45.04:145][345]LogSlate: Window 'Message Log' being destroyed
+[2022.04.19-10.45.09:324][650]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.45.09:329][650]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.45.09:329][650]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:45:09 PM)
+[2022.04.19-10.45.09:330][650]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.45.09:349][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018955s)
+[2022.04.19-10.45.09:349][650]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.45.09:349][650]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2022.04.19-10.45.09:350][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.019910s)
+[2022.04.19-10.45.09:379][650]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2022.04.19-10.45.09:382][650]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2022.04.19-10.45.09:382][650]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.45.09:382][650]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.45.09:382][650]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.45.09:382][650]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.45.09:382][650]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.45.09:382][650]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.45.09:382][650]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.45.09:382][650]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.45.09:382][650]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.45.09:382][650]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.45.09:382][650]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.45.09:382][650]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.45.09:387][650]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.19-10.45.09:387][650]LogAudioMixer: Display: 1: FrontRight
+[2022.04.19-10.45.09:399][650]LogAudioMixer: Display: Using Audio Device Casque (Jabra Elite 85t Stereo)
+[2022.04.19-10.45.09:399][650]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.45.09:399][650]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.45.09:399][650]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.45.09:399][650]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.45.09:399][650]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.45.09:399][650]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.45.09:400][650]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.45.09:400][650]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.19-10.45.09:400][650]LogInit: FAudioDevice initialized.
+[2022.04.19-10.45.09:400][650]LogAudio: Display: Audio Device (ID: 24) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.45.09:411][650]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.45.09:418][650]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.45.09
+[2022.04.19-10.45.09:419][650]LogWorld: Bringing up level for play took: 0.004312
+[2022.04.19-10.45.09:419][650]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2022.04.19-10.45.09:422][650]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.45.09:423][650]PIE: Server logged in
+[2022.04.19-10.45.09:423][650]PIE: Play in editor total start time 0.094 seconds.
+[2022.04.19-10.45.11:345][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.45.11:346][815]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.45.11:346][815]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.45.11:349][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.45.11:369][815]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.45.11:376][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.45.11:400][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.45.11:400][815]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.45.11:401][815]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.45.11:408][815]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2022.04.19-10.45.11:430][816]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2022.04.19-10.45.15:253][143]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.45.15:259][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.45.15:259][143]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:45:15 PM)
+[2022.04.19-10.45.15:259][143]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.45.15:279][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019408s)
+[2022.04.19-10.45.15:280][143]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.45.15:280][143]LogPlayLevel: PIE: World Init took: (0.001051s)
+[2022.04.19-10.45.15:280][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.020602s)
+[2022.04.19-10.45.15:303][143]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2022.04.19-10.45.15:305][143]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2022.04.19-10.45.15:305][143]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.45.15:305][143]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.45.15:305][143]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.45.15:305][143]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.45.15:305][143]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.45.15:305][143]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.45.15:305][143]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.45.15:305][143]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.45.15:306][143]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.45.15:306][143]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.45.15:306][143]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.45.15:306][143]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.45.15:309][143]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.19-10.45.15:309][143]LogAudioMixer: Display: 1: FrontRight
+[2022.04.19-10.45.15:317][143]LogAudioMixer: Display: Using Audio Device Casque (Jabra Elite 85t Stereo)
+[2022.04.19-10.45.15:317][143]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.45.15:317][143]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.45.15:317][143]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.45.15:317][143]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.45.15:318][143]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.45.15:318][143]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.45.15:318][143]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.45.15:318][143]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.19-10.45.15:319][143]LogInit: FAudioDevice initialized.
+[2022.04.19-10.45.15:319][143]LogAudio: Display: Audio Device (ID: 25) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.45.15:327][143]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.45.15:333][143]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.45.15
+[2022.04.19-10.45.15:334][143]LogWorld: Bringing up level for play took: 0.003986
+[2022.04.19-10.45.15:334][143]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2022.04.19-10.45.15:337][143]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.45.15:337][143]PIE: Server logged in
+[2022.04.19-10.45.15:338][143]PIE: Play in editor total start time 0.08 seconds.
+[2022.04.19-10.45.24:594][181]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.45.24:594][181]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.45.24:595][181]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.45.24:596][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.45.24:617][181]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.45.24:626][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.45.24:657][181]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.19-10.45.24:657][181]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.45.24:658][181]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.45.24:660][181]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.45.24:665][181]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2022.04.19-10.45.24:689][182]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2022.04.19-10.46.10:188][805]BlueprintLog: New page: Compile VehicleBlueprint
+[2022.04.19-10.46.10:273][805]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2022.04.19-10.46.52:613][806]BlueprintLog: New page: Compile VehicleBlueprint
+[2022.04.19-10.46.52:701][806]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2022.04.19-10.46.53:064][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Blueprints/VehicleBlueprint" FILE="E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset" SILENT=true
+[2022.04.19-10.46.53:115][823]LogSavePackage: Moving 'E:/TD4/PFE/InfernalDrive/Saved/VehicleBlueprintE00BEC8B40955B5DB6D6529EF1EBAE78.tmp' to 'E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2022.04.19-10.46.53:128][823]AssetCheck: New page: Asset Save: VehicleBlueprint
+[2022.04.19-10.46.53:128][823]LogContentValidation: Display: Validating Blueprint /Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint
+[2022.04.19-10.47.17:439][216]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.04.19-10.52.39:109][781]LogSlate: Window 'Project Settings' being destroyed
+[2022.04.19-10.52.39:114][781]LogSlate: Window 'Project Settings' being destroyed
+[2022.04.19-10.53.06:250][100]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2022.04.19-10.53.06:392][100]LogSavePackage: Moving 'E:/TD4/PFE/InfernalDrive/Saved/VehicleAdvExampleMap_Auto402BDA42D4DC2CC22D0198E8AC67DD417.tmp' to 'E:/TD4/PFE/InfernalDrive/Saved/Autosaves/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap_Auto4.umap'
+[2022.04.19-10.53.06:393][100]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap' took 0.175
+[2022.04.19-10.53.06:393][100]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.175
+[2022.04.19-10.56.15:272][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Blueprints/VehicleBlueprint" FILE="E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset" SILENT=true
+[2022.04.19-10.56.15:323][785]LogSavePackage: Moving 'E:/TD4/PFE/InfernalDrive/Saved/VehicleBlueprintE69EF2D24BB87ECA724B5A9D4DED752F.tmp' to 'E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2022.04.19-10.56.15:339][785]AssetCheck: New page: Asset Save: VehicleBlueprint
+[2022.04.19-10.56.15:339][785]LogContentValidation: Display: Validating Blueprint /Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint
+[2022.04.19-10.56.16:047][830]BlueprintLog: New page: Compile VehicleBlueprint
+[2022.04.19-10.56.16:136][830]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2022.04.19-10.56.16:535][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Blueprints/VehicleBlueprint" FILE="E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset" SILENT=true
+[2022.04.19-10.56.16:588][850]LogSavePackage: Moving 'E:/TD4/PFE/InfernalDrive/Saved/VehicleBlueprintCA0A39264946A60B3D8556B11ECDFAEB.tmp' to 'E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2022.04.19-10.56.16:601][850]AssetCheck: New page: Asset Save: VehicleBlueprint
+[2022.04.19-10.56.16:602][850]LogContentValidation: Display: Validating Blueprint /Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint
+[2022.04.19-10.56.20:352][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap" FILE="E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.19-10.56.20:378][146]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2022.04.19-10.56.20:461][146]LogSavePackage: Moving 'E:/TD4/PFE/InfernalDrive/Saved/VehicleAdvExampleMapA07A8EBB47DF3E4651792CB85C3DECD8.tmp' to 'E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap'
+[2022.04.19-10.56.20:475][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData" FILE="E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset" SILENT=true
+[2022.04.19-10.56.21:227][146]LogSavePackage: Moving 'E:/TD4/PFE/InfernalDrive/Saved/VehicleAdvExampleMap_BuiltData2714E9FC465EEDA90A07C299E1282FD2.tmp' to 'E:/TD4/PFE/InfernalDrive/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset'
+[2022.04.19-10.56.21:271][146]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.19-10.56.21:271][146]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.VehicleAdvExampleMap_BuiltData
+[2022.04.19-10.56.21:271][146]LogContentValidation: Display: Validating World /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap
+[2022.04.19-10.56.22:397][276]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.56.22:402][276]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.56.22:403][276]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 19, 2022, 2:56:22 PM)
+[2022.04.19-10.56.22:426][276]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.56.22:447][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021531s)
+[2022.04.19-10.56.22:448][276]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2022.04.19-10.56.22:448][276]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2022.04.19-10.56.22:448][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.022785s)
+[2022.04.19-10.56.22:474][276]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2022.04.19-10.56.22:476][276]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2022.04.19-10.56.22:476][276]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.56.22:476][276]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.56.22:476][276]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.56.22:476][276]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.56.22:476][276]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.56.22:476][276]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.56.22:476][276]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.56.22:476][276]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.56.22:477][276]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.56.22:477][276]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.56.22:477][276]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.56.22:477][276]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.56.22:481][276]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.19-10.56.22:481][276]LogAudioMixer: Display: 1: FrontRight
+[2022.04.19-10.56.22:489][276]LogAudioMixer: Display: Using Audio Device Casque (Jabra Elite 85t Stereo)
+[2022.04.19-10.56.22:490][276]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.56.22:490][276]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.56.22:490][276]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.56.22:490][276]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.56.22:490][276]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.56.22:490][276]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.56.22:491][276]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.56.22:491][276]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.19-10.56.22:491][276]LogInit: FAudioDevice initialized.
+[2022.04.19-10.56.22:491][276]LogAudio: Display: Audio Device (ID: 26) registered with world 'VehicleAdvExampleMap'.
+[2022.04.19-10.56.22:497][276]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2022.04.19-10.56.22:504][276]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2022.04.19-12.56.22
+[2022.04.19-10.56.22:504][276]LogWorld: Bringing up level for play took: 0.003894
+[2022.04.19-10.56.22:504][276]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2022.04.19-10.56.22:507][276]LogBlueprintUserMessages: [VehicleBlueprint_C_1] 100.0
+[2022.04.19-10.56.22:507][276]PIE: Server logged in
+[2022.04.19-10.56.22:508][276]PIE: Play in editor total start time 0.105 seconds.
+[2022.04.19-10.56.26:358][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.56.26:358][686]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2022.04.19-10.56.26:359][686]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.56.26:360][686]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.56.26:382][686]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.56.26:388][686]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.56.26:412][686]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.19-10.56.26:412][686]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.56.26:413][686]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.56.26:415][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.56.26:419][686]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2022.04.19-10.56.26:454][687]LogPlayLevel: Display: Destroying online subsystem :Context_32
